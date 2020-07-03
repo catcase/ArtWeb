@@ -1,0 +1,132 @@
+body {
+    margin: 0px;
+    background-color: #76aca0;
+}
+
+.topnav {
+    margin: 25px;
+    padding-bottom: 200px
+}
+
+.topnav a {
+    float: right;
+    padding-top: 5px;
+    padding-right: 20px;
+    font-family: Amatic SC;
+    font-size: 24px;
+    font-weight: 7px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.topnav li, a {
+    float: left;
+    margin-left: 10px;
+    padding-top: 5px;
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+}
+
+.topnav li, a:hover {
+    background-color: 000000;
+    color: #494949;
+}
+
+.about a {
+    float: left;
+    padding-left: 500px;
+    text-decoration: none;
+    font-family: Amatic SC;
+    font-size: 20px
+}
+
+.contact a {
+    float: right;
+    padding-right: 500px;
+    text-decoration: none;
+    font-family: Amatic SC;
+    font-size: 20px;
+}
+
+.container {
+    margin: auto;
+    max-width: 3000px;
+    padding-top: 200px;
+}
+  
+.responsive-image {
+    max-width: 100%;
+}
+  
+.cell img {
+    display: block;
+    height: auto;
+    width: 400px;
+}
+  
+  
+@media screen and (min-width: 600px) {
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.cell {
+    margin-bottom: 30px;
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+    overflow: hidden;
+  }
+}
+  
+@media screen and (min-width: 2000px) {
+.cell {
+    width: calc(100% / 3);
+  }
+}
+
+#painting {
+    filter: grayscale(90%);
+    -webkit-transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+#painting:hover {
+    filter: none;
+    -webkit-transform: scale(1.1);
+}
+
+.container h1 {
+    margin: 0;
+    text-align: center;
+    font-family: Thasadith;
+}
+
+.aboutMe {
+    display: inline-block;
+    margin-left: 200px;
+    width: 500px;
+    padding-top: 50px;
+    padding-left: 90px;
+}
+
+.aboutMe p {
+    padding-left: 30px;
+    font-family: Thasadith;
+    font-size: 22px;
+}
+
+.me {
+    margin-left: 300px;
+    display: inline-block;
+    border-radius: 10%;
+    height: 290px;
+    width: 210px;
+}
